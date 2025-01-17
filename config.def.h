@@ -172,6 +172,23 @@ static const char dmenufont[]            = "Montserrat Alternates:size=11:style=
 
 static char c000000[]                    = "#000000"; // placeholder value
 
+static char color00[]                    = "#000000";
+static char color01[]                    = "#ff0000";
+static char color02[]                    = "#00ff00";
+static char color03[]                    = "#ffff00";
+static char color04[]                    = "#0000ff";
+static char color05[]                    = "#000000";
+static char color06[]                    = "#000000";
+static char color07[]                    = "#000000";
+static char color08[]                    = "#000000";
+static char color09[]                    = "#000000";
+static char color11[]                    = "#000000";
+static char color12[]                    = "#000000";
+static char color13[]                    = "#000000";
+static char color14[]                    = "#000000";
+static char color15[]                    = "#000000";
+static char color16[]                    = "#000000";
+
 static char normfgcolor[]                = "#bbbbbb";
 static char normbgcolor[]                = "#222222";
 static char normbordercolor[]            = "#444444";
@@ -387,7 +404,7 @@ static char *colors[][ColCount] = {
 #if BAR_POWERLINE_STATUS_PATCH
 static char *statuscolors[][ColCount] = {
 	/*                       fg                bg                border                float */
-	[SchemeNorm]         = { normfgcolor,      normbgcolor,      normbordercolor,      normfloatcolor },
+	[SchemeNorm]         = { color00,      color01,      normbordercolor,      normfloatcolor },
 	[SchemeSel]          = { selfgcolor,       selbgcolor,       selbordercolor,       selfloatcolor },
 	[SchemeTitleNorm]    = { titlenormfgcolor, titlenormbgcolor, titlenormbordercolor, titlenormfloatcolor },
 	[SchemeTitleSel]     = { titleselfgcolor,  titleselbgcolor,  titleselbordercolor,  titleselfloatcolor },

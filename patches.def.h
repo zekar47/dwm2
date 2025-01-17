@@ -19,7 +19,7 @@
  * Awesomebar takes precedence over fancybar.
  * https://dwm.suckless.org/patches/awesomebar/
  */
-#define BAR_AWESOMEBAR_PATCH 0
+#define BAR_AWESOMEBAR_PATCH 1
 
 /* This patch depends on statuscmd patch and adds integration with a (patched)
  * dwmblocks instance to give a clickable status bar. One must not necessarily
@@ -29,7 +29,7 @@
  * dwmblocks: https://github.com/torrinfail/dwmblocks
  * https://dwm.suckless.org/patches/statuscmd/
  */
-#define BAR_DWMBLOCKS_PATCH 0
+#define BAR_DWMBLOCKS_PATCH 1
 
 /* Originally the dwmblocks + statuscmd patch used a user defined signal (SIGUSR1)
  * for communicating with dwmblocks to indicate update signal and what button was
@@ -51,7 +51,7 @@
  * Patch: https://gist.github.com/danbyl/54f7c1d57fc6507242a95b71c3d8fdea
  * https://dwm.suckless.org/patches/statuscmd/
  */
-#define BAR_DWMBLOCKS_SIGUSR1_PATCH 0
+#define BAR_DWMBLOCKS_SIGUSR1_PATCH 1
 
 /* This patch shows the titles of all visible windows in the status bar
  * (as opposed to showing only the selected one).
@@ -98,14 +98,13 @@
  *    xsetroot -name "$(echo -e '/\x01d/\x02e/\x03f')"
  *
  * https://gitlab.com/udiboy1209-suckless/dwm/-/commit/071f5063e8ac4280666828179f92788d893eea40#4b1a539194be7467cefbda22f675a3b7c19ceca7
- * https://dwm.suckless.org/patches/statuscolors/
- */
+ * https://dwm.suckless.org/patches/statuscolors/ */
 #define BAR_POWERLINE_STATUS_PATCH 1
 
 /* Adds powerline arrows for the tags.
  * https://gitlab.com/udiboy1209-suckless/dwm/-/commit/071f5063e8ac4280666828179f92788d893eea40#4b1a539194be7467cefbda22f675a3b7c19ceca7
  */
-#define BAR_POWERLINE_TAGS_PATCH 0
+#define BAR_POWERLINE_TAGS_PATCH 1
 
 /* Alters the tags powerline to use forward slash instead of arrows */
 #define BAR_POWERLINE_TAGS_SLASH_PATCH 0
@@ -135,7 +134,7 @@
  *
  * https://dwm.suckless.org/patches/tag-previews/
  */
-#define BAR_TAGPREVIEW_PATCH 0
+#define BAR_TAGPREVIEW_PATCH 1
 
 /* Show status in bar */
 #define BAR_STATUS_PATCH 1
@@ -172,10 +171,10 @@
 /* The systray patch adds systray for the status bar.
  * https://dwm.suckless.org/patches/systray/
  */
-#define BAR_SYSTRAY_PATCH 0
+#define BAR_SYSTRAY_PATCH 1
 
 /* Show tag symbols in the bar. */
-#define BAR_TAGS_PATCH 1
+#define BAR_TAGS_PATCH 0
 
 /* Show tag symbols + class of master window in the bar.
  * https://dwm.suckless.org/patches/taglabels/
@@ -203,7 +202,7 @@
  * https://github.com/AdamYuan/dwm-winicon
  * https://dwm.suckless.org/patches/winicon
  */
-#define BAR_WINICON_PATCH 0
+#define BAR_WINICON_PATCH 1
 
 /* Show window title in bar */
 #define BAR_WINTITLE_PATCH 1
@@ -295,7 +294,7 @@
  * modules.
  * https://dwm.suckless.org/patches/centeredwindowname/
  */
-#define BAR_CENTEREDWINDOWNAME_PATCH 0
+#define BAR_CENTEREDWINDOWNAME_PATCH 1
 
 /* Draws a dot indicator overlayed on each tag icon for each client. The selected client
  * is drawn as a larger horizontal line.
