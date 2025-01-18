@@ -182,6 +182,7 @@ static char color06[]                    = "#000000";
 static char color07[]                    = "#000000";
 static char color08[]                    = "#000000";
 static char color09[]                    = "#000000";
+static char color10[]                    = "#000000";
 static char color11[]                    = "#000000";
 static char color12[]                    = "#000000";
 static char color13[]                    = "#000000";
