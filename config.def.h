@@ -405,13 +405,13 @@ static char *colors[][ColCount] = {
 #if BAR_POWERLINE_STATUS_PATCH
 static char *statuscolors[][ColCount] = {
 	/*                       fg                bg                border                float */
-	[SchemeNorm]         = { color00,      color01,      normbordercolor,      normfloatcolor },
-	[SchemeSel]          = { selfgcolor,       selbgcolor,       selbordercolor,       selfloatcolor },
-	[SchemeTitleNorm]    = { titlenormfgcolor, titlenormbgcolor, titlenormbordercolor, titlenormfloatcolor },
-	[SchemeTitleSel]     = { titleselfgcolor,  titleselbgcolor,  titleselbordercolor,  titleselfloatcolor },
-	[SchemeTagsNorm]     = { tagsnormfgcolor,  tagsnormbgcolor,  tagsnormbordercolor,  tagsnormfloatcolor },
-	[SchemeTagsSel]      = { tagsselfgcolor,   tagsselbgcolor,   tagsselbordercolor,   tagsselfloatcolor },
-	[SchemeHidNorm]      = { hidnormfgcolor,   hidnormbgcolor,   c000000,              c000000 },
+	[SchemeNorm]         = { color07,          color00,          normbordercolor,      normfloatcolor },
+	[SchemeSel]          = { color00,          color01,       selbordercolor,       selfloatcolor },
+	[SchemeTitleNorm]    = { color00,          color02, titlenormbordercolor, titlenormfloatcolor },
+	[SchemeTitleSel]     = { color00,          color03,  titleselbordercolor,  titleselfloatcolor },
+	[SchemeTagsNorm]     = { color00,          color04,  tagsnormbordercolor,  tagsnormfloatcolor },
+	[SchemeTagsSel]      = { color00,          color05,   tagsselbordercolor,   tagsselfloatcolor },
+	[SchemeHidNorm]      = { color00,          color06,   c000000,              c000000 },
 	[SchemeHidSel]       = { hidselfgcolor,    hidselbgcolor,    c000000,              c000000 },
 	[SchemeUrg]          = { urgfgcolor,       urgbgcolor,       urgbordercolor,       urgfloatcolor },
 };

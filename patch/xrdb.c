@@ -149,6 +149,16 @@ xrdb(const Arg *arg)
 		#endif // BAR_ALPHA_PATCH
 		ColCount
 		);
+
+        // Update the powerline status scheme
+        for (i = 0; i < LENGTH(statuscolors); i++) {
+            statusscheme[i] = drw_scm_create(drw, statuscolors[i],
+            #if BAR_ALPHA_PATCH
+            alphas[SchemeNorm],  // Use a default alpha if necessary
+            #endif // BAR_ALPHA_PATCH
+            ColCount);
+        }
+
 	#if BAR_SYSTRAY_PATCH && !BAR_ALPHA_PATCH
 	if (systray) {
 		XMoveWindow(dpy, systray->win, -32000, -32000);
